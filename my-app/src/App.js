@@ -16,6 +16,7 @@ export const App = () => {
 					rel="noopener noreferrer"
 				>
 					Learn React
+					<div>{new Date().getFullYear()}</div>
 				</a>
 			</header>
 		</div>
