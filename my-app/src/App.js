@@ -1,10 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import { createElement } from 'react';
 
+// императивный стиль
 export const App = () => {
+	// декларативный стиль
+	const nowDate = createElement('div', {}, new Date().getFullYear());
+
 	return (
 		<div className="App">
 			<header className="App-header">
+				{/* декларативный стиль */}
 				<img src={logo} className="App-logo" alt="logo" />
 				<p>
 					Edit <code>src/App.js</code> and save to reload.
@@ -16,7 +22,7 @@ export const App = () => {
 					rel="noopener noreferrer"
 				>
 					Learn React
-					<div>{new Date().getFullYear()}</div>
+					{nowDate}
 				</a>
 			</header>
 		</div>
