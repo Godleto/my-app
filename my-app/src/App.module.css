@@ -1,0 +1,40 @@
+.field {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(126, 203, 236);
+	border-radius: 8px;
+	width: 100%;
+	height: 38px;
+	padding: 4px;
+	border: 2px solid black;
+}
+
+.counts {
+	text-decoration: solid;
+}
+
+.result {
+	text-decoration: solid;
+	color: tomato;
+}
+
+.calc {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 200px 500px;
+	width: 210px;
+	height: 250px;
+	background-color: rgb(166, 167, 155);
+	border-radius: 8px;
+}
+
+.box {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 45px;
+	margin: 4px;
+}
