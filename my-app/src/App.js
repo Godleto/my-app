@@ -48,7 +48,6 @@ export const App = () => {
 				{ id: Date.now(), value, currentTime, dateNow },
 			];
 			setList(updatedList);
-			console.log(list);
 		}
 	};
 
