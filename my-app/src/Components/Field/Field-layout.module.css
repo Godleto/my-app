@@ -1,0 +1,17 @@
+.field {
+	display: flex;
+	flex-wrap: wrap;
+	width: 300px;
+	margin: 20px 0;
+	border: 1px solid #2a1458;
+	border-radius: 5px;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	font-size: 50px;
+	border: 2px solid #2a1458;
+	background-color: #e8988a;
+	color: #9b177e;
+}
